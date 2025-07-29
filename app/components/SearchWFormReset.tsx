@@ -6,7 +6,7 @@ const SearchWFormReset = () => {
 
   const reset = () =>{
     const form = document.querySelector('.search-form') as HTMLFormElement;
-    // if(form) form.reset();
+    if(form) form.reset();
   }
 
   return (
